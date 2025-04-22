@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador de Números</title>
+
+    <link rel="stylesheet" href=".//styles/index.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./assets/logo.svg" alt="logo">
+            <strong>numbers</strong>
+        </header>
+
+        <div class="content">
+            <div class="info">
+                <span>Online - gratuito</span>
+                <h1>Sorteador de números</h1>
+
+                <div class="questions">
+                    <div>
+                        <div class="question">
+                            <img src="./assets/question.svg" alt="">
+                            <p>Como funciona o sorteador de números?</p>
+                        </div>
+                        <p>O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo especificado pelo usuário.</p>
+                    </div>
+    
+                    <div>
+                        <div class="question">
+                            <img src="./assets/question.svg" alt="">
+                            <p>Posso escolher o intervalo dos números?</p>
+                        </div>
+                        <p>Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sortear">
+                <h4>Quero sortear:</h4>
+                <p>Defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É rápido e fácil!</p>
+                <div class="numeros">
+                    <div class="input">
+                        <label for="quant">números</label>
+                        <input type="number" name="quant" id="quant" placeholder="2">
+                    </div>
+                    <div class="input">
+                        <label for="desde">de</label>
+                        <input type="number" name="desde" id="desde" placeholder="1">
+                    </div>
+                    <div class="input">
+                        <label for="ate">de</label>
+                        <input type="number" name="ate" id="ate" placeholder="100">
+                    </div>
+                </div>
+
+                <label class="swtch">
+                    <input type="checkbox"  id="uniqueNumbers">
+                    <span class="slider"></span>
+                    <span class="label-text">Não repetir número</span>
+                </label>
+
+                <button>
+                    Sortear 
+                    <img src="./assets/arrow.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

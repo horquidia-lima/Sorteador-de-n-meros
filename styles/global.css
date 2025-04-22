@@ -1,0 +1,53 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Background */
+  --background-primary: #020202;
+  --background-secondary: #111012;
+  --background-tertiary: #24222E;
+  --background-brand: #C58DE7;
+  --background-gray: #3D3D3D;
+
+  /* Accent */
+  --accent-pink: #D586E0;
+  --accent-blue: #91A1FA;
+  --accent-green: #77C0A;
+  --accent-lime: #D1DC97;
+  --accent-red: #E9A9B3;
+
+  --gradient-border: linear-gradient(#77C0AF 0%, #D1DC97 14.84%, #E9A9B3 32.15%, #D586E0 65.79%, #91A1FA 84.58%);
+  --gradient-background: linear-gradient(#D586E0 0%, #91A1FA 98.93%);
+  --gradient-content: linear-gradient(#C7C9CC 0%, #3D3D3D 100%);
+
+  --ff-base: 'Sora', sans-serif;
+}
+
+body {
+    color: #FFFFFF;
+    background: var(--background-primary);
+    font-family: var(--ff-base);
+}
+
+.container {
+    padding: 4.75rem 8.375rem 9.56rem 8.375rem;
+    /*height: 100vh;
+    background: url(../assets/background.png) no-repeat;
+    background-size: 100% 30vh;
+    background-position: bottom;*/
+}
+
+/* Para Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Para Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
