@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-            <div class="sortear">
+            <form class="sortear" id="form">
                 <h4>Quero sortear:</h4>
                 <p>Defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É rápido e fácil!</p>
                 <div class="numeros">
@@ -65,12 +65,22 @@
                     <span class="label-text">Não repetir número</span>
                 </label>
 
-                <button>
+                <button type="submit">
                     Sortear 
                     <img src="./assets/arrow.svg" alt="">
                 </button>
+            </form>
+            <!-- Resultado do sorteio (inicialmente oculto) -->
+            <div id="resultados" class="hidden">
+                <h4>Resultado do sorteio</h4>
+                <p id="contador">1º resultado</p>
+                <div id="numeros-sorteados"></div>
             </div>
+            <!-- Botão para sortear novamente (também escondido inicialmente) -->
+            <button id="btn-novamente" class="hidden">Sortear Novamente</button>
         </div>
     </div>
+
+    <script src="./script/main.js"></script>
 </body>
 </html>
