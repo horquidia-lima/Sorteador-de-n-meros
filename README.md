@@ -1,6 +1,7 @@
 # Sorteador de Números
 
-![Screenshot do Sorteador de Números](./assets/screenshot.png)
+![image](https://github.com/user-attachments/assets/f1422552-1fc7-428a-9358-b60860af91ea)
+
 
 ## 📋 Sobre o Projeto
 
