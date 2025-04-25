@@ -71,13 +71,17 @@
                 </button>
             </form>
             <!-- Resultado do sorteio (inicialmente oculto) -->
-            <div id="resultados" class="hidden">
-                <h4>Resultado do sorteio</h4>
-                <p id="contador">1º resultado</p>
-                <div id="numeros-sorteados"></div>
+            <div class="resultado-bloco hidden" id="resultado-bloco">
+                <div id="resultados">
+                  <h4>Resultado do sorteio</h4>
+                  <p id="contador">1º resultado</p>
+                  <div class="numeros-bloco">
+                    <div id="numeros-sorteados"></div>
+                  </div>
+                </div>
+                <button id="btn-novamente" class="hidden">Sortear Novamente</button>
             </div>
-            <!-- Botão para sortear novamente (também escondido inicialmente) -->
-            <button id="btn-novamente" class="hidden">Sortear Novamente</button>
+            
         </div>
     </div>
 

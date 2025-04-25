@@ -1,3 +1,45 @@
 .hidden {
     display: none !important;
 }
+
+.resultado-bloco {
+  width: 30.125rem;
+
+  & h4 {
+    text-align: center;
+    font-family: 'Roboto Flex';
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 150%;
+    text-transform: uppercase;
+  }
+
+  & p {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C7C9CC;
+    margin-bottom: 2.5rem;
+  }
+
+  & #numeros-sorteados {
+    display: flex;
+    gap: 1rem;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-inline: 1rem;
+    font-family: 'Roboto Mono';
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 150%;
+    color: var(--background-brand);
+  }
+
+ 
+}
+
