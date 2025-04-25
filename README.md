@@ -31,10 +31,6 @@ O Sorteador de Números é uma aplicação web que permite aos usuários gerar n
 6. Veja os números sendo sorteados na tela
 7. Ao fim do sorteio, você pode clicar em "Sortear Novamente" para realizar um novo sorteio
 
-## 📱 Responsividade
-
-A aplicação foi desenvolvida com design responsivo, adaptando-se a diferentes tamanhos de tela e dispositivos.
-
 ## 💭 Como Funciona
 
 O sorteador utiliza o método `Math.random()` do JavaScript para gerar números aleatórios dentro do intervalo especificado. Quando a opção "Não repetir número" está ativada, o algoritmo garante que cada número sorteado seja único dentro do conjunto.
